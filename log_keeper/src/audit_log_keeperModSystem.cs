@@ -74,7 +74,7 @@ namespace audit_log_keeper
                     //api.Logger.Debug(lines.ToString());
                     if (lines.Length > logLens[fn])
                     {
-                        int n = 3; // Number of elements you want to retrieve
+                        int n = lines.Length - logLens[fn]; // Number of elements you want to retrieve
                                    // Copy the last n elements to the new array
 
                         string[] keepLines = new string[lines.Length - logLens[fn]];
