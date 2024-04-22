@@ -1,0 +1,14 @@
+{
+  "type": "code",
+  "modid": "log_keeper",
+  "name": "log_keeper",
+  "authors": [
+    "codeAtorium"
+  ],
+  "description": "keeps backups of your logs",
+  "version": "1.0.6",
+  "dependencies": {
+    "game": "1.19.*"
+  },
+  "RequiredOnClient": false
+}
